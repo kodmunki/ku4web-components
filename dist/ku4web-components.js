@@ -1,7 +1,8 @@
 
 'use strict';
 (function () {
-  var currentScript = document.currentScript;
+  var doc = document;
+  var currentScript = doc.currentScript;
 
   // !currentScript
   // IE11 since it doesnt support document.currentScript
@@ -188,11 +189,10 @@ DOMTokenList
   }
 }(DOMTokenList.prototype));
 
-(function () {
+(function() {
   if (
     // No Reflect, no classes, no need for shim because native custom elements
     // require ES2015 classes or Reflect.
-    typeof window === 'undefined' ||
     window.Reflect === undefined ||
     window.customElements === undefined
   ) {
@@ -201,7 +201,7 @@ DOMTokenList
   var BuiltInHTMLElement = HTMLElement;
   window.HTMLElement = /** @this {!Object} */ function HTMLElement() {
     return Reflect.construct(
-      BuiltInHTMLElement, [], /** @type {!Function} */(this.constructor));
+        BuiltInHTMLElement, [], /** @type {!Function} */ (this.constructor));
   };
   HTMLElement.prototype = BuiltInHTMLElement.prototype;
   HTMLElement.prototype.constructor = HTMLElement;
@@ -694,14 +694,12 @@ function loadDocument(doc, globalScopes) {
     });
 }
 function startWatcher(doc, globalScopes) {
-    if (typeof MutationObserver !== 'undefined') {
-        var mutation = new MutationObserver(function () {
-            if (loadDocumentStyles(doc, globalScopes)) {
-                updateGlobalScopes(globalScopes);
-            }
-        });
-        mutation.observe(document.head, { childList: true });
-    }
+    var mutation = new MutationObserver(function () {
+        if (loadDocumentStyles(doc, globalScopes)) {
+            updateGlobalScopes(globalScopes);
+        }
+    });
+    mutation.observe(document.head, { childList: true });
 }
 function loadDocumentLinks(doc, globalScopes) {
     var promises = [];
@@ -777,18 +775,20 @@ var CustomStyle = /** @class */ (function () {
         this.scopesMap = new Map();
         this.didInit = false;
     }
-    CustomStyle.prototype.i = function () {
+    CustomStyle.prototype.initShim = function () {
         var _this = this;
-        if (this.didInit || !this.win.requestAnimationFrame) {
+        if (this.didInit) {
             return Promise.resolve();
         }
-        this.didInit = true;
-        return new Promise(function (resolve) {
-            _this.win.requestAnimationFrame(function () {
-                startWatcher(_this.doc, _this.globalScopes);
-                loadDocument(_this.doc, _this.globalScopes).then(function () { return resolve(); });
+        else {
+            this.didInit = true;
+            return new Promise(function (resolve) {
+                _this.win.requestAnimationFrame(function () {
+                    startWatcher(_this.doc, _this.globalScopes);
+                    loadDocument(_this.doc, _this.globalScopes).then(function () { return resolve(); });
+                });
             });
-        });
+        }
     };
     CustomStyle.prototype.addLink = function (linkEl) {
         var _this = this;
@@ -866,26 +866,28 @@ var CustomStyle = /** @class */ (function () {
     };
     return CustomStyle;
 }());
-(function (win) {
-    if (win && !win.__cssshim && (!(win.CSS && win.CSS.supports && win.CSS.supports('color', 'var(--c)')))) {
-        win.__cssshim = new CustomStyle(win, win.document);
-    }
-})(typeof window !== 'undefined' && window);
+var win = window;
+function needsShim() {
+    return !(win.CSS && win.CSS.supports && win.CSS.supports('color', 'var(--c)'));
+}
+if (!win.__stencil_cssshim && needsShim()) {
+    win.__stencil_cssshim = new CustomStyle(win, document);
+}
 
     // Figure out currentScript (for IE11, since it does not support currentScript)
     var regex = /\/ku4web-components(\.esm)?\.js($|\?|#)/;
-    var scriptElm = currentScript || Array.from(document.querySelectorAll('script')).find(function(s) {
+    var scriptElm = currentScript || Array.from(doc.querySelectorAll('script')).find(function(s) {
       return regex.test(s.src) || s.getAttribute('data-stencil-namespace') === "ku4web-components";
     });
 
     var resourcesUrl = scriptElm ? scriptElm.getAttribute('data-resources-url') || scriptElm.src : '';
     var start = function() {
-      var url = new URL('./p-1828d2df.system.js', resourcesUrl);
+      var url = new URL('./p-f64783e0.system.js', resourcesUrl);
       System.import(url.href);
     };
 
-    if (window.__cssshim) {
-      window.__cssshim.i().then(start);
+    if (win.__stencil_cssshim) {
+      win.__stencil_cssshim.initShim().then(start);
     } else {
       start();
     }
