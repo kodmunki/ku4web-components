@@ -37,6 +37,19 @@ const Ku4Mask = class {
     }
     mask(e) {
         /**
+         * Your current idea is that you will need to preventdefault on keydown
+         * Then inspect where you currently are (cursor) and where you are going
+         * (You may need to also check if you have selected a span. (If you have
+         * selected a span, you may not want to prevent the following default.
+         * This really may work better if you define "states" that you can be in
+         * from any given action or set of actions and what state you can end up
+         * in from that state. It may be easiest to navigate. -- Also you may
+         * determine which characters are actually written to the input based
+         * upon looking at where you currently are and then finding the current
+         * input value and template value character indexes. -- This may sound
+         * more complicated that it will actually be.
+         */
+        /**
          * You need to know:
          * * Previous value
          * * New data to update value with (input or delete)
