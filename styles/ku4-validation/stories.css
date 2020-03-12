@@ -1,0 +1,13 @@
+ku4-validation {
+  width: 100%;
+  margin: 10px 0 0 4px;
+  font-size: 10px;
+  box-sizing: border-box;
+  color: #f00;
+}
+
+ku4-validation[invalid] + ku4-label input,
+ku4-validation[invalid] + ku4-label select {
+  border-color: #f00;
+  color: #f00;
+}

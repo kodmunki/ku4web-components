@@ -1,0 +1,39 @@
+ku4-drawer {
+  background-color: #333;
+  opacity: 0.5;
+  box-shadow: 0 0 8px 0 #000;
+}
+
+ku4-drawer .content{
+  padding: 10px;
+  color: #eee;
+}
+
+ku4-drawer button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+ku4-drawer div:first-of-type {
+  margin-top:  10px;
+}
+
+.instructions {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -11px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.instructions button {
+  display: block;
+  margin: 16px auto 0
+}

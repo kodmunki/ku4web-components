@@ -1,0 +1,8 @@
+:root {
+  --ku4-grid-outer-gutter: 8px;
+  --ku4-grid-column-gutter: 15px;
+  --ku4-grid-row-gutter-xs: 6px;
+  --ku4-grid-row-gutter-sm: 10px;
+  --ku4-grid-row-gutter-md: 12px;
+  --ku4-grid-row-gutter-lg: 16px;
+}
