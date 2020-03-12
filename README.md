@@ -1,5 +1,13 @@
 # ku4web-components
-kodmunki Utilities for Web Components
+ku4web-components is a library of cross browser compatible Web Components
+to help quickly and easily add core power functionality to any website or
+web application.
+
+## Table Of Contents
+* [Documentation](#documentation)
+* [Installation](#installation)
+* [Styling](#styling)
+* [Release Notes](#release-notes)
 
 ## Documentation
 Documentation for each of the components in this component suite can be found
@@ -19,3 +27,7 @@ in the target component's directory in the
 of this project There are also `stories.css` files in the target components'
 directory, as applicable, that show the supplemental styles that are being used
 in that component's Story in this projects [Storybook](https://kodmunki.github.io/storybook);
+
+## Release Notes
+A history of releases can be found in the ["releases"](https://github.com/kodmunki/ku4web-components/releases) section of this repository.
+For convenience, here are [release notes for the latest release](https://github.com/kodmunki/ku4web-components/releases/latest).
