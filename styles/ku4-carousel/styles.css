@@ -1,0 +1,21 @@
+/**
+ * This stylesheet is not required. It helps to style this
+ * component in it's kodmunki storybook story. It can be
+ * used as is, modified, or omitted. Developer's choice :{)}
+ */
+
+.carousel {
+  width: auto;
+  height: 300px;
+  margin: 10px 10%;
+}
+
+.slide {
+  padding: 20px 60px;
+}
+
+.full-bleed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

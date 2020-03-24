@@ -1,0 +1,16 @@
+/**
+ * This stylesheet is not required. It helps to style this
+ * component in it's kodmunki storybook story. It can be
+ * used as is, modified, or omitted. Developer's choice :{)}
+ */
+
+ku4-validation {
+  margin: 10px 0 0 4px;
+  font-size: 10px;
+  color: #f00;
+}
+
+ku4-validation[invalid] + ku4-label input,
+ku4-validation[invalid] + ku4-label select {
+  color: #f00;
+}
