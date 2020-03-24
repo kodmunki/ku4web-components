@@ -1,7 +1,5 @@
 # ku4web-components
-ku4web-components is a library of cross browser compatible Web Components
-to help quickly and easily add core power functionality to any website or
-web application.
+Quick and easy core web functionality.
 
 ## Table Of Contents
 * [Documentation](#documentation)
