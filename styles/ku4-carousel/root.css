@@ -85,21 +85,21 @@
   /*controls - next*/
   --ku4-carousel-controls-next-width: 40px;
   --ku4-carousel-controls-next-height: 100%;
-  --ku4-carousel-controls-next-background-image: url('/storybook/arrow-next.svg');
+  --ku4-carousel-controls-next-background-image: url('https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components/assets/arrow-next.svg');
   --ku4-carousel-controls-next-background-repeat: no-repeat;
   --ku4-carousel-controls-next-background-position-x: 0;
   --ku4-carousel-controls-next-background-position-y: 50%;
   --ku4-carousel-controls-next-background-size: 100% 100%;
 
   /*controls - next - focus*/
-  --ku4-carousel-controls-next-focus-background-image: url('/storybook/arrow-next.svg');;
+  --ku4-carousel-controls-next-focus-background-image: url('https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components/assets/arrow-next.svg');;
   --ku4-carousel-controls-next-focus-background-repeat: no-repeat;
   --ku4-carousel-controls-next-focus-background-position-x: 0;
   --ku4-carousel-controls-next-focus-background-position-y: 50%;
   --ku4-carousel-controls-next-focus-background-size: 100% 100%;
 
   /*controls - next - hover*/
-  --ku4-carousel-controls-next-hover-background-image: url('/storybook/arrow-next.svg');;
+  --ku4-carousel-controls-next-hover-background-image: url('https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components/assets/arrow-next.svg');;
   --ku4-carousel-controls-next-hover-background-repeat: no-repeat;
   --ku4-carousel-controls-next-hover-background-position-x: 0;
   --ku4-carousel-controls-next-hover-background-position-y: 50%;
@@ -108,21 +108,21 @@
   /*controls - previous*/
   --ku4-carousel-controls-previous-width: 40px;
   --ku4-carousel-controls-previous-height: 100%;
-  --ku4-carousel-controls-previous-background-image: url('/storybook/arrow-previous.svg');;
+  --ku4-carousel-controls-previous-background-image: url('https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components/assets/arrow-previous.svg');;
   --ku4-carousel-controls-previous-background-repeat: no-repeat;
   --ku4-carousel-controls-previous-background-position-x: 0;
   --ku4-carousel-controls-previous-background-position-y: 50%;
   --ku4-carousel-controls-previous-background-size: 100% 100%;
 
   /*controls - previous - focus*/
-  --ku4-carousel-controls-previous-focus-background-image: url('/storybook/arrow-previous.svg');;
+  --ku4-carousel-controls-previous-focus-background-image: url('https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components/assets/arrow-previous.svg');;
   --ku4-carousel-controls-previous-focus-background-repeat: no-repeat;
   --ku4-carousel-controls-previous-focus-background-position-x: 0;
   --ku4-carousel-controls-previous-focus-background-position-y: 50%;
   --ku4-carousel-controls-previous-focus-background-size: 100% 100%;
 
   /*controls - previous - hover*/
-  --ku4-carousel-controls-previous-hover-background-image: url('/storybook/arrow-previous.svg');;
+  --ku4-carousel-controls-previous-hover-background-image: url('https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components/assets/arrow-previous.svg');;
   --ku4-carousel-controls-previous-hover-background-repeat: no-repeat;
   --ku4-carousel-controls-previous-hover-background-position-x: 0;
   --ku4-carousel-controls-previous-hover-background-position-y: 50%;
