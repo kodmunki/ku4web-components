@@ -31,7 +31,7 @@ Quick and easy core web functionality.
 [Storybook](https://kodmunki.github.io/storybook)
 
 ## Installation
-[Installation instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation).
+[Installation instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation)
 
 ## Styling
 Default component `:root` styles, CSS variables, and starter styles in
