@@ -2,7 +2,11 @@
 Quick and easy core web functionality.
 
 ### tl;dr
-Add the latest ku4web-components to your project
+Add the latest ku4web-components to your project:
+* [Add to your website](#add-ku4web-components-to-your-website)
+* [Add to your React app](##add-ku4web-components-to-your-react-app)
+* [Add components `root` styles](#add-ku4-*-component-root-Styles)
+* [Add optional kodmunki styles](#add-ku4-*-Component-optional-kodmunki-styles)
 
 #### Add ku4web-components To Your Website
 Add the scripts below to the head of your website.
