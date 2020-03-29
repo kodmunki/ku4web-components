@@ -17,8 +17,8 @@ Add the scripts below to the head of your website.
 ```
 
 #### Add ku4web-components To Your React App
-Install `ku4web-components` from npm: `npm i -S ku4web-components` 
-and adding the code snippet below to your project root 
+Install `ku4web-components` from npm: `npm i -S ku4web-components`.
+Then, add the code snippet below to your project root 
 _(this is `src/index.js` in a default `create-react-app`)_
 
 ```javascript
