@@ -10,7 +10,6 @@ Add the scripts below to the head of your website.
 ```html
 <script type="module" src='https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components@latest/dist/ku4web-components.esm.js'></script>
 <script nomodule src='https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components@latest/dist/ku4web-components.js'></script>
-
 ```
 
 #### Add ku4web-components To Your React App
@@ -21,7 +20,6 @@ _(this is `src/index.js` in a default `create-react-app`)_
 ```ecmascript 6
 import { applyPolyfills, defineCustomElements } from 'ku4web-components/loader';
 applyPolyfills().then(() => { defineCustomElements(); });
-
 ```
 
 #### Add ku4-* Component `:root` Styles
@@ -31,7 +29,6 @@ Replace `[COMPONENT]` with the name of the `ku4-*` component you are targeting.
 
 ```html
 <link rel="stylesheet" href='https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components@latest/styles/[COMPONENT]/root.css' />
-
 ```
 
 #### Add ku4-* Component Optional kodmunki Styles
@@ -41,7 +38,6 @@ Replace `[COMPONENT]` with the name of the `ku4-*` component you are targeting.
 
 ```html
 <link rel="stylesheet" href='https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components@latest/styles/[COMPONENT]/styles.css' />
-
 ```
 
 ## Table Of Contents
