@@ -3,8 +3,8 @@ Quick and easy core web functionality.
 
 ### tl;dr
 
-> Add the latest ku4web-components to your site by adding the scripts below to the head
-> of your target website or web app.
+> Add the latest ku4web-components to your website by adding the scripts 
+> below to the head of your target website or web app.
 >
 > ```html
 > <script type="module" src='https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components@latest/dist/ku4web-components.esm.js'></script>
@@ -12,8 +12,20 @@ Quick and easy core web functionality.
 >
 > ```
 > 
-> Add the associated styles for your target components by adding links to the associated
-> styles in the head of your target website or web app. Template below.
+> Add `ku4web-components` to your React app by installing `ku4web-components`
+> from npm: `npm i -S ku4web-components` and adding the code snippet below to
+> your project root _(this is `src/index.js` in a default `create-react-app`)_
+>
+> ```html
+> import { applyPolyfills, defineCustomElements } from 'ku4web-components/loader';
+>  applyPolyfills().then(() => { defineCustomElements(); });
+> 
+> ```
+> 
+>
+> Add the `:root` styles for your target components by adding the style links
+> to the head of your website or web app. Template below. Just replace `[COMPONENT]`
+> with the name of the `ku4-*` component you are targeting.
 >
 > ```html
 > <link rel="stylesheet" href='https://cdn.jsdelivr.net/gh/kodmunki/ku4web-components@latest/styles/[COMPONENT]/root.css' />
