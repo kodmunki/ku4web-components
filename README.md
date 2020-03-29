@@ -17,7 +17,7 @@ Install `ku4web-components` from npm: `npm i -S ku4web-components`
 and adding the code snippet below to your project root 
 _(this is `src/index.js` in a default `create-react-app`)_
 
-```ecmascript 6
+```javascript
 import { applyPolyfills, defineCustomElements } from 'ku4web-components/loader';
 applyPolyfills().then(() => { defineCustomElements(); });
 ```
