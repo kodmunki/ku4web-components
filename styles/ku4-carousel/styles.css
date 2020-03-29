@@ -1,15 +1,9 @@
-.carousel {
+ku4-carousel {
   width: auto;
   height: 300px;
   margin: 10px 10%;
 }
 
-.slide {
+ku4-carousel-slide > * {
   padding: 20px 60px;
-}
-
-.full-bleed {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
