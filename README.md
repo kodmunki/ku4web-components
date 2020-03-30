@@ -1,23 +1,32 @@
 # ku4web-components
-Quick and easy core web functionality.
+Quick. Easy. Awesome. Web components. Light-weight yet robust and 
+fully-featured. Great for simple web, enterprise apps at scale, and
+anything between.
 
 ## Table Of Contents
+* [Overview](#overview)
 * [Documentation](#documentation)
 * [Installation](#installation)
 * [Styling](#styling)
 * [Release Notes](#release-notes)
 
+## Overview
+ku4web-components is a suite of sweet, fully-customizable Web Components
+that enable rapid development of responsive, scalable, maintainable web
+frontends. It includes excellent features such as carousels, drawers,
+modals, forms, validation, tab-lists, focus-traps, etc. All that can be
+added to your site with one or two lines of declarative HTML!
+
 ## Documentation
-[Storybook](https://kodmunki.github.io/storybook)
+In the project [Storybook](https://kodmunki.github.io/storybook)
 
 ## Installation
-[Installation instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation)
+[Instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation)
 
 ## Styling
-Default component `:root` styles, CSS variables, and starter styles in
-[styles directory](./styles). Use `root.css` to set desired variable values.
-Optionally, use `styles.css` for quick start.
+Default component root styles, CSS variables, and starter styles in
+[styles directory](./styles). Copy and customize `root.css` to set 
+desired values. Optionally, use `styles.css` for quick start.
 
 ## Release Notes
-History found in ["releases"](https://github.com/kodmunki/ku4web-components/releases) section of this repository.
-For convenience: [release notes for the latest release](https://github.com/kodmunki/ku4web-components/releases/latest).
+Found in [releases](https://github.com/kodmunki/ku4web-components/releases) section of this repository.
