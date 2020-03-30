@@ -70,7 +70,6 @@
   --ku4-carousel-controls-font-weight: 400;
   --ku4-carousel-controls-font-size: 8px;
   --ku4-carousel-controls-line-height: 12px;
-  --ku4-carousel-controls-line-spacing: 1;
   --ku4-carousel-controls-opacity: 0.2;
 
   /*controls - focus*/
@@ -141,6 +140,5 @@
   --ku4-carousel-pages-text-font-weight: 300;
   --ku4-carousel-pages-text-font-size: 12px;
   --ku4-carousel-pages-text-line-height: 16px;
-  --ku4-carousel-pages-text-line-spacing: 1;
   --ku4-carousel-pages-text-color: #ccc;
 }

@@ -21,7 +21,7 @@ added to your site with one or two lines of declarative HTML!
 In the project [Storybook](https://kodmunki.github.io/storybook)
 
 ## Installation
-[Instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation)
+In the project [Instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation)
 
 ## Styling
 Default component root styles, CSS variables, and starter styles in
