@@ -132,13 +132,13 @@
   --ku4-carousel-pages-bottom: 0;
   --ku4-carousel-pages-height: 20px;
   --ku4-carousel-pages-background-color: transparent;
-  --ku4-carousel-pages-opacity: 0.5;
+  --ku4-carousel-pages-opacity: 0.8;
 
   /*pages-text*/
   --ku4-carousel-pages-text-padding: 4px;
   --ku4-carousel-pages-text-font-family: Helvetica, Arial, sans-serif;
-  --ku4-carousel-pages-text-font-weight: 300;
-  --ku4-carousel-pages-text-font-size: 12px;
+  --ku4-carousel-pages-text-font-weight: 600;
+  --ku4-carousel-pages-text-font-size: 14px;
   --ku4-carousel-pages-text-line-height: 16px;
   --ku4-carousel-pages-text-color: #ccc;
 }
