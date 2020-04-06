@@ -6,10 +6,9 @@
 
 ku4-carousel {
   width: auto;
-  height: 600px;
   border: solid 1px #ccc;
 }
 
-ku4-carousel-slide > *{
+ku4-carousel-slide {
   padding: 20px 60px;
 }
