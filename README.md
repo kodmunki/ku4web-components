@@ -27,7 +27,7 @@ they are compatible with the code you already have. They can be added to
 any project that supports HTML. If you can render HTML, you can render ku4web-components!
 
 ## Documentation
-In the project [Storybook](https://kodmunki.github.io/storybook)
+In the project [Storybook](https://kodmunki.github.io/storybook/?path=/docs/0--page)
 
 ## Installation
 In the project [Instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation)
