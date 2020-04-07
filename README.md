@@ -30,7 +30,7 @@ any project that supports HTML. If you can render HTML, you can render ku4web-co
 In the project [Storybook](https://kodmunki.github.io/storybook/?path=/docs/0--page)
 
 ## Installation
-In the project [Instructions](http://kodmunki.github.io/storybook/index.html?path=/story/overview-about--page#installation)
+In the project [Instructions](http://kodmunki.github.io/storybook/?path=/story/2--page)
 
 ## Styling
 Default component root styles, CSS variables, and starter styles in
