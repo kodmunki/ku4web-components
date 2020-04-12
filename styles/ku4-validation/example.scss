@@ -1,0 +1,27 @@
+/***********************************************************************
+ ***********************************************************************
+ **   THIS FILE IS A 1:1 COPY/PASTE OF THE `template.css` THAT        **
+ **   HAS CSS RULES IMPLEMENTED TO SHOW AN EXAMPLE OF HOW YOU MIGHT   **
+ **   USE THIS FILE. THIS IS ONLY AN EXAMPLE. YOU CAN COPY/PASTE      **
+ **   `template.css` INTO YOUR OWN PROJECT AND IMPLEMENT AS           **
+ **   IS APPROPRIATE FOR YOUR PROJECT.                                **
+ ***********************************************************************
+ ***********************************************************************/
+
+/**
+ * ============= ku4-validation Style Template ================
+ * ================ ku4-label Style Template ==================
+ * You may use this template to help implement styles targeting
+ * ku4-drawer.
+ * This file may be used in whole, in part, or omitted, and has
+ * been commented where useful to help. See the example
+ * implementations for an idea of one approach to styling.
+ */
+
+ku4-validation {
+  position: relative;
+  display: block;
+  top: -6px;
+  font-size: 12px;
+  color: #f00;
+}
