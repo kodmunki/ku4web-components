@@ -1,0 +1,49 @@
+:root {
+  /*ku4-tab-list*/
+  --ku4-tab-list-justify-content: flex-start;
+
+  /*ku4-tab*/
+  /*padding*/
+  --ku4-tab-padding: 10px 16px;
+
+  /*typography*/
+  --ku4-tab-line-height: 22px;
+  --ku4-tab-text-align: left;
+
+  /*color*/
+  --ku4-tab-background-color: #ddd;
+  --ku4-tab-text-color: #888;
+
+  /*borders*/
+  --ku4-tab-border: 1px solid #ccc;
+  --ku4-tab-border-radius: 2px;
+
+  /*focus*/
+  --ku4-tab-focus-background-color: #eee;
+  --ku4-tab-focus-text-color: #666;
+  --ku4-tab-focus-z-index: 2;
+
+  /*hover*/
+  --ku4-tab-hover-background-color: #eee;
+  --ku4-tab-hover-text-color: #666;
+
+  /*active*/
+  --ku4-tab-active-background-color: #fff;
+  --ku4-tab-active-text-color: #333;
+
+  /*selected */
+  --ku4-tab-selected-padding-bottom: 1px;
+  --ku4-tab-selected-background-color: #fff;
+  --ku4-tab-selected-text-color: #333;
+
+  /*ku4-panel*/
+  /*Transition*/
+  --ku4-tab-panel-max-height: 200px;
+  --ku4-tab-panel-transion-speed: 0.3s;
+
+  /*padding*/
+  --ku4-tab-panel-padding: 0 16px;
+
+  /*borders*/
+  --ku4-tab-panel-border: 1px solid #ccc;
+}

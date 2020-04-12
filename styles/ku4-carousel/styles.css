@@ -1,0 +1,9 @@
+ku4-carousel {
+  width: auto;
+  height: 300px;
+  margin: 10px 10%;
+}
+
+ku4-carousel-slide > * {
+  padding: 20px 60px;
+}
