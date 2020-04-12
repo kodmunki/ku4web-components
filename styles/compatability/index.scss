@@ -1,0 +1,9 @@
+/* IE10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  @import './ku4-carousel';
+}
+
+/* IE Edge 12+ */
+@supports (-ms-accelerator:true) {
+  @import './ku4-carousel';
+}

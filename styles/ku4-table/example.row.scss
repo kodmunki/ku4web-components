@@ -1,0 +1,74 @@
+/***********************************************************************
+ ***********************************************************************
+ **   THIS FILE IS A 1:1 COPY/PASTE OF THE `template.row.css` THAT    **
+ **   HAS CSS RULES IMPLEMENTED TO SHOW AN EXAMPLE OF HOW YOU MIGHT   **
+ **   USE THIS FILE. THIS IS ONLY AN EXAMPLE. YOU CAN COPY/PASTE      **
+ **   `template.row.css` INTO YOUR OWN PROJECT AND IMPLEMENT AS       **
+ **   IS APPROPRIATE FOR YOUR PROJECT.                                **
+ ***********************************************************************
+ ***********************************************************************/
+
+/**
+ * ================ ku4-table Row Style Template ================
+ * You may use this style template to help you implement table
+ * styles targeting ku4-table configured for xs-stack="row" e.g.:
+ *
+ *                   <ku4-table xs-stack="row">
+ *
+ * This file can be used in whole or in part, and has been
+ * commented throughout to help. See the example implementations
+ * for an idea of one approach to styling.
+ */
+
+/** START | Common table styles **/
+/**
+ * This section is optional. If you have existing table styles
+ * that you are currently using you can skip this section, or
+ * actively omit/delete it.
+ */
+table { }
+caption { }
+thead th, thead td { }
+tbody th, tfoot th { }
+tbody td, tfoot td { }
+/** END | Common table styles **/
+
+/** START | xs-stack="row" styles and overrides **/
+/**
+ * This section is not required but may be desired
+ * to implement fine tuning at extra-small viewports.
+ */
+@media only screen and (max-width: 767px) {
+
+  tbody th, tbody td,
+  tfoot th, tfoot td {
+    border: none;
+  }
+
+  tbody td:before,
+  tfoot td:before {
+    padding-right: 16px;
+    font-weight: 300;
+  }
+
+  tbody th, tbody td,
+  tfoot th, tfoot td {
+    padding: 16px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  tbody th, tfoot th {
+    font-size: 1.2em;
+    background-color: #f59331;
+    color: #fff;
+  }
+
+  tbody td, tfoot td {
+    padding: 16px;
+    color: #3a2315;
+  }
+
+}
+/** END | xs-stack="row" styles and overrides **/
+

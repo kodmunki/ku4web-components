@@ -1,0 +1,55 @@
+/**
+ * ============== ku4-table Row Style Template ================
+ * You may use this template to help implement styles targeting
+ * ku4-table configured for xs-stack="row".
+ * This file may be used in whole, in part, or omitted, and has
+ * been commented where useful to help. See the example
+ * implementations for an idea of one approach to styling.
+ */
+
+/** START | Common table styles **/
+/**
+ * This section is optional. If you have existing table styles
+ * that you are currently using you can skip this section, or
+ * actively omit/delete it.
+ */
+table { }
+caption { }
+thead th, thead td { }
+tbody th, tfoot th { }
+tbody td, tfoot td { }
+/** END | Common table styles **/
+
+/** START | xs-stack="row" styles and overrides **/
+/**
+ * This section is not required but may be desired
+ * to implement fine tuning at extra-small viewports.
+ */
+@media only screen and (max-width: 767px) {
+
+  tbody th, tbody td,
+  tfoot th, tfoot td {
+    /**
+     * Put common styles for tbody and tfoot cells
+     * at extra-small viewports here. An example
+     * might be `border: none` to override cell
+     * borders defined in your common table styles
+     */
+  }
+
+  tbody td:before,
+  tfoot td:before {
+    /**
+     * Style your row headers at extra-small
+     * viewport here.
+     */
+  }
+
+  /**
+   * Any other customizations that you would like to
+   * add for your table at an extra-small viewport
+   * will go here.
+   */
+}
+/** END | xs-stack="row" styles and overrides **/
+
