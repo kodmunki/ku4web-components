@@ -21,9 +21,11 @@ ku4-modal { }
 
 ku4-modal > :first-child {
   max-width: 40vw;
+  max-height: 90vh;
   padding: 40px;
   box-shadow: 0 0 8px -2px #000;
   border: solid 1px #000;
   border-radius: 4px;
   background-color: #fff;
+  overflow: auto;
 }
