@@ -1,0 +1,26 @@
+/**
+ * ku4web-components follows a "mobile-first" design
+ * strategy and uses the following breakpoints for
+ * the corresponding commented sizes.
+ *
+ * Any exceptions to the mobile-first design strategy
+ * e.g. styles for extra-small only, will be noted in
+ * the given component's template.css and example.css
+ * for your target VERSION which can be found at:
+ * https://github.com/kodmunki/ku4web-components/tree/VERSION/styles
+ * and the necessary @media query block will be there
+ * and commented for your convenience.
+ */
+
+/* extra-small */
+@media only screen and (min-width: 1px) { }
+
+/* small */
+@media only screen and (min-width: 768px) { }
+
+/* medium */
+@media only screen and (min-width: 992px) { }
+
+/* large */
+@media only screen and (min-width: 1200px) { }
+
