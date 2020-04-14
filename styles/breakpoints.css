@@ -3,9 +3,18 @@
  * strategy and uses the following breakpoints for
  * the corresponding commented sizes.
  *
+ * Note that because ku4web-components follow a
+ * "mobile-first" design strategy each breakpoint is
+ * relevant for its labeled size and any size larger.
+ * The means, for example, that styling at extra-small
+ * will style for all sizes unless otherwise overridden
+ * at a breakpoint for a larger size.
+ *
  * Any exceptions to the mobile-first design strategy
  * e.g. styles for extra-small only, will be noted in
- * the given component's template.css and example.css
+ * the given component's template.css and example.css.
+ *
+ * You can find the template.css and any example.css
  * for your target VERSION which can be found at:
  * https://github.com/kodmunki/ku4web-components/tree/VERSION/styles
  * and the necessary @media query block will be there
