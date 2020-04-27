@@ -56,9 +56,9 @@
 
   /*animation*/
   --ku4-carousel-animation-active-next-name:  ku4-carousel-enter-right;
-  --ku4-carousel-animation-active-prev-name: ku4-carousel-enter-left;
+  --ku4-carousel-animation-active-previous-name: ku4-carousel-enter-left;
   --ku4-carousel-animation-inactive-next-name: ku4-carousel-exit-left;
-  --ku4-carousel-animation-inactive-prev-name: ku4-carousel-exit-right;
+  --ku4-carousel-animation-inactive-previous-name: ku4-carousel-exit-right;
   --ku4-carousel-animation-duration: 0.4s;
   --ku4-carousel-animation-timing-function: ease;
 
@@ -75,7 +75,7 @@
   /*controls - focus*/
   --ku4-carousel-controls-focus-background-color: transparent;
   --ku4-carousel-controls-focus-outline: none;
-  --ku4-carousel-controls-focus-opacity: 1;
+  --ku4-carousel-controls-focus-opacity: 0.2;
 
   /*controls - hover*/
   --ku4-carousel-controls-hover-background-color: transparent;
@@ -130,6 +130,7 @@
   /*pages*/
   --ku4-carousel-pages-top: auto;
   --ku4-carousel-pages-bottom: 0;
+  --ku4-carousel-pages-width: auto;
   --ku4-carousel-pages-height: 20px;
   --ku4-carousel-pages-background-color: transparent;
   --ku4-carousel-pages-opacity: 0.8;
