@@ -11,9 +11,9 @@
 /**
  * ============== ku4-table Column Style Template ===============
  * You may use this style template to help you implement table
- * styles targeting ku4-table configured for xs-stack="column" e.g.:
+ * styles targeting ku4-table configured for stack-xs="column" e.g.:
  *
- *                 <ku4-table xs-stack="column">
+ *                 <ku4-table stack-xs="column">
  *
  * This file can be used in whole or in part, and has been
  * commented throughout to help. See the example implementations
@@ -33,7 +33,7 @@ tbody th, tfoot th { }
 tbody td, tfoot td { }
 /** END | Common table styles **/
 
-/** START | xs-stack="column" styles and overrides **/
+/** START | stack-xs="column" styles and overrides **/
 /**
  * This section is not required but may be desired
  * to implement fine tuning at extra-small viewports.
@@ -53,5 +53,5 @@ tbody td, tfoot td { }
     }
   }
 }
-/** END | xs-stack="column" styles and overrides **/
+/** END | stack-xs="column" styles and overrides **/
 
