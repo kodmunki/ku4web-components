@@ -71,6 +71,7 @@
   --ku4-carousel-controls-font-size: 8px;
   --ku4-carousel-controls-line-height: 12px;
   --ku4-carousel-controls-opacity: 0.2;
+  --ku4-carousel-controls-z-index: 1;
 
   /*controls - focus*/
   --ku4-carousel-controls-focus-background-color: transparent;
