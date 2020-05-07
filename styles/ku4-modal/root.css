@@ -1,5 +1,6 @@
 :root {
   --ku4-modal-z-index: 5;
+  --ku4-modal-transform-style: initial;
 
   --ku4-modal-content-animation-start-transform: scale(.5);
   --ku4-modal-content-animation-mid-transform: scale(1.2);
@@ -9,6 +10,7 @@
   --ku4-modal-content-animation-end-opacity: 1;
   --ku4-modal-content-animation-duration: 0.4s;
   --ku4-modal-content-animation-timing-function: ease;
+  --ku4-modal-content-transform: none;
 
   --ku4-modal-overlay-animation-start-transform: none;
   --ku4-modal-overlay-animation-mid-transform: none;
@@ -18,7 +20,7 @@
   --ku4-modal-overlay-animation-end-opacity: 0.4;
   --ku4-modal-overlay-animation-duration: 0.4s;
   --ku4-modal-overlay-animation-timing-function: ease;
-
+  --ku4-modal-overlay-transform: none;
   --ku4-modal-overlay-background: #000;
   --ku4-modal-overlay-opacity: 0.4;
 }
