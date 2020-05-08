@@ -26,7 +26,7 @@ tbody td, tfoot td { }
  * to implement fine tuning at extra-small viewports.
  */
 @media only screen and (max-width: 767px) {
-  @supports (display: contents) {
+  @supports (display: contents)  and (not (-webkit-flow-from: main)) {
 
     tbody th, tbody td,
     tfoot th, tfoot td {
