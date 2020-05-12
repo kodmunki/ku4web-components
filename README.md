@@ -12,19 +12,22 @@ frameworks!
 * [Release Notes](#release-notes)
 
 ## Overview
-ku4web-components is a crazy sweet, suite of fully-customizable Web Components
-that enable rapid development of responsive, scalable, maintainable,
-accessible web front-ends. And by "rapid" we mean _really fast!_
 
-Just a line or two of declarative HTML for excellent features like
-carousels, drawers, modals, forms, validation, tab-lists, focus-traps, etc.
+Simple, declarative web components for, insanely, fast development of
+responsive, scalable, maintainable,accessible web front-ends.
 
-Zero JavaScript. Zero cumbersome state-management wiring. Zero boilerplate.
-Just a few simple lines of declarative HTML!
+Form validation, grids, carousels, focus-trap, tab-lists... in 
+Angular, React, Vue, and Web apps. All the same declarative, NO-hassle
+code.
 
-And if that wasn't great enough
-they are compatible with the code you already have. They can be added to
-any project that supports HTML. If you can render HTML, you can render ku4web-components!
+NO JavaScript. NO cumbersome FE state-management wiring. NO boilerplate.
+
+Just a few simple lines of declarative HTML, compatible with the code you
+already have, and portable across all platforms with.
+
+Write it once. Use it everywhere.
+
+If you can render HTML, you can render ku4web-components!
 
 ## Documentation
 In the project [Storybook](https://kodmunki.github.io/storybook/?path=/docs/0--page)
