@@ -1,0 +1,1 @@
+import{B as o}from"./p-1568c03c.js";const t=()=>{let t;t=o()};export{t as u}
