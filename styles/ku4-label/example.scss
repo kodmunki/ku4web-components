@@ -17,6 +17,10 @@
  * implementations for an idea of one approach to styling.
  */
 
+:host {
+  --ku4-label-background-color: #fff;
+}
+
 ku4-label {
   background: #fff;
 }
