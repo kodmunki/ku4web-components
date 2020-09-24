@@ -12,8 +12,8 @@ everything between.
 
 ## Overview
 
-Form-validation, input-masks, focus-traps, responsive grids, carousels, tab-lists... in 
-Angular, React, Vue, and Web apps. All with the same declarative, NO-hassle, single lines of mark-up.
+Form-validation, input-masks, focus-traps, responsive grids, carousels, tab-lists, and more in 
+Angular, React, Vue, and Web apps. All with the same simple, declarative mark-up.
 
 NO JavaScript. NO cumbersome state-management wiring. NO boilerplate.
 
