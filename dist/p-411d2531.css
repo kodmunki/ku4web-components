@@ -203,6 +203,7 @@ ku4-tab,
 ku4-tab-list,
 ku4-tab-panel,
 ku4-table,
+ku4-tooltip,
 ku4-validation {
   visibility: hidden;
 }
@@ -219,6 +220,7 @@ ku4-tab[hydrated],
 ku4-tab-list[hydrated],
 ku4-tab-panel[hydrated],
 ku4-table[hydrated],
+ku4-tooltip[hydrated],
 ku4-validation[hydrated] {
   visibility: inherit;
 }
