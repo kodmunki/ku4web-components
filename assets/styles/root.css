@@ -1,0 +1,17 @@
+.os-content div div div a:last-of-type button {
+  font-style: italic;
+  font-weight: 400;
+}
+
+div.css-0 a {
+  font-style: italic;
+  opacity: .6;
+  font-weight: 400;
+}
+
+div.css-0 a.selected {
+  background: transparent;
+  color: #3a2315;
+  opacity: 1;
+  font-weight: 600;
+}

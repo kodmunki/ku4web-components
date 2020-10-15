@@ -1,0 +1,33 @@
+:host {
+  -webkit-backface-visibility: hidden;
+  display: block;
+  width: 100%;
+  max-height: 0;
+  padding: 0 20px;
+  transition: max-height 0.4s, padding 0.6s;
+  overflow: hidden;
+}
+
+:host([selected]) {
+  max-height: 100vh;
+  padding: 20px;
+  transition: max-height 0.4s, padding 0.6s;
+}
+
+@media only screen and (min-width: 768px) {
+  :host {
+    display: none;
+    max-height: initial;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    transition: none;
+    order: 2;
+  }
+
+  :host([selected]) {
+    display: block;
+    max-height: initial;
+    transition: none;
+  }
+}

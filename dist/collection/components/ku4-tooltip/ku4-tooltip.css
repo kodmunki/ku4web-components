@@ -1,0 +1,55 @@
+:host {
+  position: fixed;
+  display: none;
+  opacity: 0;
+  z-index: 2;
+  background-color: #fff;
+  border: solid 1px #ccc;
+}
+
+:host([visible]) {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+:host .arrow {
+  position: absolute;
+  width: var(--ku4-tooltip-arrow-size, 14px);
+  height: var(--ku4-tooltip-arrow-size, 14px);
+  background-color: inherit;
+  transform: rotate(45deg);
+  border: inherit;
+}
+
+:host .content {
+  position: relative;
+}
+
+:host([top]) .arrow {
+  top: calc(100% - var(--ku4-tooltip-arrow-offset, 7px));
+  left: calc(50% - var(--ku4-tooltip-arrow-offset, 7px));
+  border-top: none !important;
+  border-left: none !important;
+}
+
+:host([left]) .arrow {
+  top: calc(50% - var(--ku4-tooltip-arrow-offset, 7px));
+  left: calc(100% - var(--ku4-tooltip-arrow-offset, 7px));
+  border-left: none !important;
+  border-bottom: none !important;
+}
+
+:host([bottom]) .arrow {
+  left: calc(50% - var(--ku4-tooltip-arrow-offset, 7px));
+  bottom: calc(100% - var(--ku4-tooltip-arrow-offset, 7px));
+  border-bottom: none !important;
+  border-right: none !important;
+}
+
+:host([right]) .arrow {
+  top: calc(50% - var(--ku4-tooltip-arrow-offset, 7px));
+  right: calc(100% - var(--ku4-tooltip-arrow-offset, 7px));
+  border-top: none !important;
+  border-right: none !important;
+}

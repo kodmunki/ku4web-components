@@ -1,0 +1,15 @@
+#docs-root .sbdocs.sbdocs-wrapper {
+  padding-top: 1rem;
+}
+
+#docs-root img.guide {
+  display: block;
+  margin: 16px auto 56px;
+  border: solid 1px #aaa;
+  box-shadow: 0 0 4px 1px #ccc;
+}
+
+#docs-root .sbdocs-preview {
+  margin-bottom: 0;
+}
+

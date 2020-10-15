@@ -1,0 +1,27 @@
+{
+  "entries": [
+    "./components/ku4-carousel/ku4-carousel.js",
+    "./components/ku4-carousel-slide/ku4-carousel-slide.js",
+    "./components/ku4-col/ku4-col.js",
+    "./components/ku4-drawer/ku4-drawer.js",
+    "./components/ku4-focus-trap/ku4-focus-trap.js",
+    "./components/ku4-form/ku4-form.js",
+    "./components/ku4-grid/ku4-grid.js",
+    "./components/ku4-label/ku4-label.js",
+    "./components/ku4-mask/ku4-mask.js",
+    "./components/ku4-modal/ku4-modal.js",
+    "./components/ku4-tab/ku4-tab.js",
+    "./components/ku4-tab-list/ku4-tab-list.js",
+    "./components/ku4-tab-panel/ku4-tab-panel.js",
+    "./components/ku4-table/ku4-table.js",
+    "./components/ku4-tooltip/ku4-tooltip.js",
+    "./components/ku4-validation/ku4-validation.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.0.3",
+    "typescriptVersion": "4.0.2"
+  },
+  "collections": [],
+  "bundles": []
+}
