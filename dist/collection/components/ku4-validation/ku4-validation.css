@@ -1,7 +1,0 @@
-:host {
-  visibility: hidden !important;
-}
-
-:host([invalid]) {
-  visibility: visible !important;
-}
