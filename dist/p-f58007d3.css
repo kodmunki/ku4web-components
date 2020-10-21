@@ -242,6 +242,7 @@
 }
 
 ku4-carousel,
+ku4-carousel-controls,
 ku4-carousel-slide,
 ku4-col,
 ku4-drawer,
@@ -259,6 +260,7 @@ ku4-validation {
   visibility: hidden;
 }
 ku4-carousel[hydrated],
+ku4-carousel-controls[hydrated],
 ku4-carousel-slide[hydrated],
 ku4-col[hydrated],
 ku4-drawer[hydrated],
