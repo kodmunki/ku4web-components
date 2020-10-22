@@ -1,0 +1,25 @@
+/***********************************************************************
+ ***********************************************************************
+ **   THIS FILE IS A 1:1 COPY/PASTE OF THE `template.css` THAT        **
+ **   HAS CSS RULES IMPLEMENTED TO SHOW AN EXAMPLE OF HOW YOU MIGHT   **
+ **   USE THIS FILE. THIS IS ONLY AN EXAMPLE. YOU CAN COPY/PASTE      **
+ **   `template.css` INTO YOUR OWN PROJECT AND IMPLEMENT AS           **
+ **   IS APPROPRIATE FOR YOUR PROJECT.                                **
+ ***********************************************************************
+ ***********************************************************************/
+/**
+ * ============== ku4-tab-list Style Template =================
+ * You may use this template to help implement styles targeting
+ * ku4-tab-list.
+ * This file may be used in whole, in part, or omitted, and has
+ * been commented where useful to help. See the example
+ * implementations for an idea of one approach to styling.
+ */
+/** START | small viewport styles and overrides **/
+@media only screen and (min-width: 768px) {
+  ku4-tab {
+    box-shadow: 0px -4px 10px -10px #000 inset; }
+  ku4-tab[selected] {
+    box-shadow: none; } }
+
+/** End | Larger viewport styles and overrides **/

@@ -1,0 +1,41 @@
+/**
+ * The rules prevent FOUC for ESM browsers async script load.
+ */
+@import url(./ku4-carousel/root.css);
+@import url(./ku4-grid/root.css);
+@import url(./ku4-label/root.css);
+@import url(./ku4-modal/root.css);
+ku4-carousel,
+ku4-carousel-controls,
+ku4-carousel-slide,
+ku4-col,
+ku4-drawer,
+ku4-focus-trap,
+ku4-form,
+ku4-grid,
+ku4-label,
+ku4-modal,
+ku4-tab,
+ku4-tab-list,
+ku4-tab-panel,
+ku4-table,
+ku4-tooltip,
+ku4-validation {
+  visibility: hidden; }
+  ku4-carousel[hydrated],
+  ku4-carousel-controls[hydrated],
+  ku4-carousel-slide[hydrated],
+  ku4-col[hydrated],
+  ku4-drawer[hydrated],
+  ku4-focus-trap[hydrated],
+  ku4-form[hydrated],
+  ku4-grid[hydrated],
+  ku4-label[hydrated],
+  ku4-modal[hydrated],
+  ku4-tab[hydrated],
+  ku4-tab-list[hydrated],
+  ku4-tab-panel[hydrated],
+  ku4-table[hydrated],
+  ku4-tooltip[hydrated],
+  ku4-validation[hydrated] {
+    visibility: inherit; }

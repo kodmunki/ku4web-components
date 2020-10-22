@@ -1,0 +1,33 @@
+/***********************************************************************
+ ***********************************************************************
+ **   THIS FILE IS A 1:1 COPY/PASTE OF THE `template.css` THAT        **
+ **   HAS CSS RULES IMPLEMENTED TO SHOW AN EXAMPLE OF HOW YOU MIGHT   **
+ **   USE THIS FILE. THIS IS ONLY AN EXAMPLE. YOU CAN COPY/PASTE      **
+ **   `template.css` INTO YOUR OWN PROJECT AND IMPLEMENT AS           **
+ **   IS APPROPRIATE FOR YOUR PROJECT.                                **
+ ***********************************************************************
+ ***********************************************************************/
+/**
+ * ================ ku4-modal Style Template ==================
+ * You may use this template to help implement styles targeting
+ * ku4-modal.
+ * This file may be used in whole, in part, or omitted, and has
+ * been commented where useful to help. See the example
+ * implementations for an idea of one approach to styling.
+ */
+ku4-modal > :first-child {
+  max-width: 40vw;
+  padding: 40px;
+  box-shadow: 0 0 8px -2px #000;
+  border: solid 1px #000;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: auto; }
+  @media only screen and (max-width: 767px) {
+    ku4-modal > :first-child {
+      min-width: 40vw;
+      max-width: 70vw;
+      max-height: 80vh; } }
+  @media (orientation: landscape) {
+    ku4-modal > :first-child {
+      max-height: 70vh; } }
