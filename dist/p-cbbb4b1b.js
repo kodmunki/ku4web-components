@@ -1,0 +1,1 @@
+import{R as o}from"./p-c1068ffa.js";const f=()=>{o.uid()};export{f as u}
