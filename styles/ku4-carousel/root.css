@@ -1,7 +1,6 @@
 @keyframes ku4-carousel-enter-left {
   0% {
     top: 0;
-    left: -100%;
     transform: translate3d(-100%, 0, 0);
     opacity: 0;
   }
@@ -28,12 +27,12 @@
 @keyframes ku4-carousel-exit-left {
   0% {
     top: 0;
-    left: 0;
+    transform: translate3d(0, 0, 0);
     opacity: 1;
   }
   100% {
     top: 0;
-    left: -100%;
+    transform: translate3d(-100%, 0, 0);
     opacity: 0;
   }
 }
@@ -41,12 +40,12 @@
 @keyframes ku4-carousel-exit-right {
   0% {
     top: 0;
-    left: 0;
+    transform: translate3d(0, 0, 0);
     opacity: 1;
   }
   100% {
     top: 0;
-    left: 100%;
+    transform: translate3d(100%, 0, 0);
     opacity: 0;
   }
 }
