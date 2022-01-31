@@ -1,11 +1,45 @@
-@keyframes ku4-carousel-enter-left {
+/**
+ * The rules prevent FOUC for ESM browsers async script load.
+ */
+@-webkit-keyframes ku4-carousel-enter-left {
   0% {
     top: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     opacity: 0;
   }
   100% {
     top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes ku4-carousel-enter-left {
+  0% {
+    top: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ku4-carousel-enter-right {
+  0% {
+    top: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
@@ -14,25 +48,59 @@
 @keyframes ku4-carousel-enter-right {
   0% {
     top: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     opacity: 0;
   }
   100% {
     top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes ku4-carousel-exit-left {
+  0% {
+    top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    opacity: 0;
   }
 }
 
 @keyframes ku4-carousel-exit-left {
   0% {
     top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
   100% {
     top: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes ku4-carousel-exit-right {
+  0% {
+    top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
     opacity: 0;
   }
 }
@@ -40,11 +108,13 @@
 @keyframes ku4-carousel-exit-right {
   0% {
     top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
   100% {
     top: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     opacity: 0;
   }
@@ -144,3 +214,86 @@
 /*  --ku4-carousel-pages-text-line-height: 16px;*/
 /*  --ku4-carousel-pages-text-color: #ccc;*/
 /*}*/
+
+:root {
+  --ku4-grid-column-gutter: 15px;
+  --ku4-grid-row-gutter-xs: 6px;
+  --ku4-grid-row-gutter-sm: 10px;
+  --ku4-grid-row-gutter-md: 12px;
+  --ku4-grid-row-gutter-lg: 16px;
+}
+
+:root {
+  --ku4-label-top: -6px;
+  --ku4-label-left: 8px;
+  --ku4-label-padding: 0 4px;
+  --ku4-label-background-color: inherit;
+}
+
+:root {
+  --ku4-modal-z-index: 5;
+  --ku4-modal-transform-style: initial;
+
+  --ku4-modal-content-animation-start-transform: scale(.5);
+  --ku4-modal-content-animation-mid-transform: scale(1.2);
+  --ku4-modal-content-animation-end-transform: scale(1);
+  --ku4-modal-content-animation-start-opacity: 0;
+  --ku4-modal-content-animation-mid-opacity: 0.8;
+  --ku4-modal-content-animation-end-opacity: 1;
+  --ku4-modal-content-animation-duration: 0.4s;
+  --ku4-modal-content-animation-timing-function: ease;
+  --ku4-modal-content-transform: none;
+
+  --ku4-modal-overlay-animation-start-transform: none;
+  --ku4-modal-overlay-animation-mid-transform: none;
+  --ku4-modal-overlay-animation-end-transform: none;
+  --ku4-modal-overlay-animation-start-opacity: 0;
+  --ku4-modal-overlay-animation-mid-opacity: 0.35;
+  --ku4-modal-overlay-animation-end-opacity: 0.4;
+  --ku4-modal-overlay-animation-duration: 0.4s;
+  --ku4-modal-overlay-animation-timing-function: ease;
+  --ku4-modal-overlay-transform: none;
+  --ku4-modal-overlay-background: #000;
+  --ku4-modal-overlay-opacity: 0.4;
+}
+
+ku4-carousel,
+ku4-carousel-controls,
+ku4-carousel-slide,
+ku4-col,
+ku4-drawer,
+ku4-feature,
+ku4-focus-trap,
+ku4-form,
+ku4-grid,
+ku4-preview,
+ku4-label,
+ku4-modal,
+ku4-tab,
+ku4-tab-list,
+ku4-tab-panel,
+ku4-table,
+ku4-tooltip,
+ku4-validation {
+  visibility: hidden;
+}
+ku4-carousel[hydrated],
+ku4-carousel-controls[hydrated],
+ku4-carousel-slide[hydrated],
+ku4-col[hydrated],
+ku4-drawer[hydrated],
+ku4-feature[hydrated],
+ku4-focus-trap[hydrated],
+ku4-form[hydrated],
+ku4-grid[hydrated],
+ku4-preview[hydrated],
+ku4-label[hydrated],
+ku4-modal[hydrated],
+ku4-tab[hydrated],
+ku4-tab-list[hydrated],
+ku4-tab-panel[hydrated],
+ku4-table[hydrated],
+ku4-tooltip[hydrated],
+ku4-validation[hydrated] {
+  visibility: inherit;
+}
