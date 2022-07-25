@@ -114,7 +114,8 @@ DOMTokenList
 
   var resourcesUrl = scriptElm ? scriptElm.getAttribute('data-resources-url') || scriptElm.src : '';
   var start = function() {
-    var url = new URL('./p-0b3bdc7f.system.js', new URL(resourcesUrl, window.location.origin));
+    // if src is not present then origin is "null", and new URL() throws TypeError: Failed to construct 'URL': Invalid base URL
+    var url = new URL('./p-475a4157.system.js', new URL(resourcesUrl, window.location.origin !== 'null' ? window.location.origin : undefined));
     System.import(url.href);
   };
 
