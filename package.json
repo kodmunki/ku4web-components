@@ -3,7 +3,8 @@
   "description": "kodmunki™ Web Components",
   "homepage": "ku4web-components.kodmunki.com",
   "repository": "git@github.com:kodmunki/ku4web-components.git",
-  "license": "kodmunki",
+  "author": "kodmunki",
+  "license": "MIT",
   "keywords": [
     "Angular",
     "React",
